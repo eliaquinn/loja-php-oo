@@ -31,6 +31,3 @@ class Method
     return DEFAULT_METHOD;
   }
 }
-
-//proxima aula
-//https://www.youtube.com/watch?v=z73m6TEki7s&list=PLyugqHiq-SKdSIn5SRyubTQJVSYUb0CVk&index=10
