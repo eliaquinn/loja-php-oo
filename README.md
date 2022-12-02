@@ -12,21 +12,31 @@ git clone https://github.com/eliaquinn/loja-php-oo.git
 composer update
 ```
 
-## Estrutura
+## Mapa Estrutural do Projeto
 
-* App/
-  * /Classes/
+* 📁App/
+  * 📁Classes/
     * 📄Redirect.php
     * 📄Uri.php
-  * /Controllers/
-    * /Site
-      * /📄ProdutoController.php
-    * /📄Controller.php
-    * /📄Methods.php
-  * /Functions/
-    * /📄functions_twig.php
-* public/
-  * bootstrap
-    * /📄bootstrap.php
-  * /📄.htaccess
-  * /📄index.php
+    * 📄Template.php
+  * 📁Controllers/
+    * 📁Error
+      * 📄ErrorController.php
+    * 📁Site
+      * 📄ProdutoController.php
+      * 📄HomeController.php
+    * 📄Controller.php
+    * 📄Method.php
+    * 📄BaseController.php
+  * 📁Functions/
+    * 📄functions_twig.php
+  * 📁Views
+    * 📁Admin
+      * 📄admin_home.html
+    * 📁Site
+      * 📄site_home.html
+* 📁public/
+  * 📁bootstrap
+    * 📄bootstrap.php
+  * 📄.htaccess
+  * 📄index.php
